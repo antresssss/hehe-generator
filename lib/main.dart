@@ -57,57 +57,59 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body:
-      Column(
-        mainAxisAlignment:MainAxisAlignment.center,
-        children: [
-          Column(
-            children: [
-            Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: Container(
-
-                child:Image.asset('assets/hehecat.jpg')
+      SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment:MainAxisAlignment.center,
+          children: [
+            Column(
+              children: [
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Container(
+                  width:double.infinity,
+                  child:Image.asset('assets/hehecat.jpg')
+                ),
               ),
+              Container(
+                width:double.infinity,
+                color: Colors.black,
+                child:Center(child: bigCard(he: he)),)]
             ),
-            Container(
-              width:double.infinity,
-              color: Colors.black,
-              child:Center(child: bigCard(he: he)),)]
-          ),
-          const SizedBox(height:22,),
-          SizedBox(
-            height:30,
-            width: 117,
-            child: ElevatedButton(
-                onPressed: (){
-              addHe();
-            },
-                child:const Center(child:Text('he',style:TextStyle(color: Color(0xB8D0D2FF)),))),
-          ),
-          const SizedBox(height: 5,),
-          SizedBox(
-            height:30,
-            width: 117,
-            child: ElevatedButton(onPressed: (){
-              resetHe();
-            },
-                child:const Center(child:Text('reset'))),
+            const SizedBox(height:22,),
+            SizedBox(
+              height:30,
+              width: 117,
+              child: ElevatedButton(
+                  onPressed: (){
+                addHe();
+              },
+                  child:const Center(child:Text('he',style:TextStyle(color: Color(0xB8D0D2FF)),))),
+            ),
+            const SizedBox(height: 5,),
+            SizedBox(
+              height:30,
+              width: 117,
+              child: ElevatedButton(onPressed: (){
+                resetHe();
+              },
+                  child:const Center(child:Text('reset'))),
 
-          ),
-          const SizedBox(height: 5,),
-          SizedBox(
-            height:30,
-            width: 117,
-            child: ElevatedButton(onPressed: (){
-              if(he!='hehe'){
-              removeHe();
-              }
-            },
-                child:const Center(child:Text('remove he'))),
+            ),
+            const SizedBox(height: 5,),
+            SizedBox(
+              height:30,
+              width: 117,
+              child: ElevatedButton(onPressed: (){
+                if(he!='hehe'){
+                removeHe();
+                }
+              },
+                  child:const Center(child:Text('remove he'))),
 
-          ),
+            ),
 
-        ],
+          ],
+        ),
       ),
     );
   }
