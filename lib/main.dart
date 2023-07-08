@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.black,
                 child:Center(child: bigCard(he: he)),)]
             ),
-            const SizedBox(height:22,),
+            const SizedBox(height:27,),
             SizedBox(
               height:30,
               width: 117,
@@ -131,7 +131,7 @@ class bigCard extends StatelessWidget {
     return Card(
       color:Colors.black,
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(2.0),
       child: Text(he,style: const TextStyle(fontWeight: FontWeight.bold,fontSize:34,color:Colors.white),),
       ),
     );
