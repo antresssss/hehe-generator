@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         useMaterial3: true,
       ),
-      home: SafeArea(child: Center(child: const MyHomePage())),
+      home: SafeArea(child: const MyHomePage()),
     );
   }
 }
@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Column(
               children: [
+             SizedBox(height:135,),
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Container(
@@ -85,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
                   child:const Center(child:Text('he',style:TextStyle(color: Color(0xB8D0D2FF)),))),
             ),
-            const SizedBox(height: 5,),
+            const SizedBox(height:5,),
             SizedBox(
               height:30,
               width: 117,
