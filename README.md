@@ -5,7 +5,7 @@
 
 This is how the screen looks like.
 
-Three buttons for functionality
+# Three buttons for functionality
 
 1.he : to add "he"
 2.reset : to reset to original "hehe"
