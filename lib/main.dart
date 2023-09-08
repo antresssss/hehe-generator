@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-/* tbh with the color scheme turned dark we don't really need the card widget or the container that holds it ,but for learning purposes we will keep that there.It is useful if you want to change the colorscheme to light*/
+/* tbh with the colorscheme turned dark we don't really need the card widget or the container that holds it ,but for learning purposes we will keep that there.It is useful if you want to change the colorscheme to light*/
 
 class bigCard extends StatelessWidget {
   const bigCard({
