@@ -17,7 +17,7 @@ and MORE
 2.reset : to reset to original "hehe"
 3.remove he : to remove a "he" 
 
-To download and run the app (for whatever reason🫶🏽
+# To download and run the app (for whatever reason🫶🏽
 )
 
 1.Install Flutter! [official Flutter website](https://flutter.dev/docs/get-started/install) 
@@ -29,9 +29,7 @@ To download and run the app (for whatever reason🫶🏽
 
 To download an apk : run the command `flutter build apk`
 
-      ********************************************************
-
 👩🏼‍💻 pls add anything more if you can,all welcome,fork,change,pull request (fancy word-contribute)
 
-NOTE : This is just a fun project 👩🏼‍🎨. I like cats , I like hehes' so combine them 👩🏼‍🔬 
+# NOTE : This is just a fun project 👩🏼‍🎨. I like cats , I like hehes' so combine them 👩🏼‍🔬 
 
