@@ -4,11 +4,17 @@ Welcome to this Flutter App! This is a simple Flutter app that demonstrates cats
 
 The opening screen
 ![hehegenscreen1](assets/hehegen1.jpeg)
+
 a little 'he'
+
 ![hehegenscreen2](assets/hehegen2.jpeg)
+
 a little more
+
 ![hehegenscreen3](assets/hehegen3.jpeg)
+
 and MORE
+
 ![hehegenscreen4](assets/hehegen4.jpeg)
 
 # Three buttons for functionality
@@ -31,5 +37,6 @@ To download an apk : run the command `flutter build apk`
 
 👩🏼‍💻 pls add anything more if you can,all welcome,fork,change,pull request (fancy word-contribute)
 
-# NOTE : This is just a fun project 👩🏼‍🎨. I like cats , I like hehes' so combine them 👩🏼‍🔬 
+# NOTE :
+This is just a fun project 👩🏼‍🎨. I like cats , I like hehes' so combine them 👩🏼‍🔬 
 
