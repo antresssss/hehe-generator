@@ -26,7 +26,7 @@ Welcome to this Flutter App! This is a simple Flutter app that demonstrates cats
 
 3. remove he : to remove a "he" 
 
-# To download and run the app (for whatever reason🫶🏽)
+# To download and run the app (for whatever reason🫶🏽) or make changes
 
 1. Install Flutter! [official Flutter website](https://flutter.dev/docs/get-started/install) 
   run `flutter doctor ` to ensure everything is right with the installation .
@@ -37,6 +37,8 @@ Welcome to this Flutter App! This is a simple Flutter app that demonstrates cats
 3. Navigate to the project directory , install dependencies ,run the app,and start generating 👩🏽‍🎤
 
    To download an apk - run the command `flutter build apk` and install on your device.
+
+   OR just download the apk directly from this repository , its named hehegen.apk (easy,easier,faster)
 
 👩🏼‍💻 pls add anything more if you can,all welcome,fork,change,pull request (fancy word-contribute)
 
